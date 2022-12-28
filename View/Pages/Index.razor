@@ -1,0 +1,44 @@
+@page "/"
+@inject UserService UserService
+
+
+<MudText Typo="Typo.h1" Color="Color.Primary">Welcome to my template.</MudText>
+
+@*PageTitle is set in App.razor*@
+
+<AuthorizeView>
+    <Authorized>
+        <MudText>
+            @* you can use UserService.CurrentUser (CurrentUser should be set if the user is authorized) *@
+            @UserService.CurrentUser?.Username
+        </MudText>
+    </Authorized>
+    <Authorizing>
+        <MudText>How long does this load???</MudText>
+    </Authorizing>
+    <NotAuthorized>
+        <MudText>You are currently not logged in!</MudText>
+    </NotAuthorized>
+</AuthorizeView>
+
+<DataInit Data="DataYouLoadFromSomeWhere">
+    <MudText>Now DataYouLoadFromSomeWhere is set to an object reference!</MudText>
+</DataInit>
+
+
+
+
+@code {
+
+    public object? DataYouLoadFromSomeWhere { get; set; }
+
+    protected override async Task OnInitializedAsync() {
+        if (await UserService.IsAuthenticated()) {
+    // do stuff if user is authenticated
+        }
+        if (await UserService.HasRole("Admin")) {
+    // do stuff if user is in role
+        }
+    }
+
+}

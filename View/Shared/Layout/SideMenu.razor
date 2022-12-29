@@ -1,6 +1,4 @@
-﻿@inject IThemeHandler ThemeHandler
-@implements IDisposable
-
+﻿
 <MudDrawer Breakpoint="Breakpoint.Md"
            Class="side-menu"
            Elevation="0"
@@ -20,7 +18,7 @@
         @foreach (var navItem in _menuSectionItems) {
             <MudNavLink Href="@(navItem.Href)" Icon="@(navItem.Icon)" Match="NavLinkMatch.All" Class="icon-hover">
                 <div class="d-flex">
-                    <MudText Inline="true">@navItem.Title</MudText>
+                    <MudText Inline="true" Style="white-space: nowrap;">@navItem.Title</MudText>
                 </div>
             </MudNavLink>
         }

@@ -1,6 +1,6 @@
 ﻿namespace Model.Entities.Auth;
 
-[Table("USERS_HAVE_ROLES_JT")]
+[Table("USER_HAS_ROLES_JT")]
 public class RoleClaim {
     [Column("USER_ID")] public int UserId { get; set; }
 

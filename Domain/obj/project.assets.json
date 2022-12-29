@@ -1077,11 +1077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\FindThings\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\repos\\blazor-template\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\repos\\FindThings\\Domain\\Domain.csproj",
+      "projectPath": "D:\\repos\\blazor-template\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\trueberryless\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\FindThings\\Domain\\obj\\",
+      "outputPath": "D:\\repos\\blazor-template\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\trueberryless\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1098,8 +1098,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\repos\\FindThings\\Model\\Model.csproj": {
-              "projectPath": "D:\\repos\\FindThings\\Model\\Model.csproj"
+            "D:\\repos\\blazor-template\\Model\\Model.csproj": {
+              "projectPath": "D:\\repos\\blazor-template\\Model\\Model.csproj"
             }
           }
         }

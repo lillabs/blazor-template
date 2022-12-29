@@ -1,8 +1,5 @@
 ﻿@page "/auth/register"
-@inject UserService UserService
 @inject ILogger<Login> Logger
-@inherits CancellationComponent
-
 
 <MudCard Class="position-relative w-100">
     <MudCardHeader>
@@ -17,7 +14,7 @@
                     T="string"
                     InputMode="InputMode.text" InputType="InputType.Text" Immediate="true"
                     Counter="32" MaxLength="32"
-                    Label="Username" HelperText="Min. 4, Max. 50 characters | Allowed chars: A-Z 0-9 . _ - "
+                    Label="Username" HelperText="Min. 4, Max. 32 characters | Allowed chars: a-z A-Z 0-9 . _ - "
                     @bind-Value="RegUser.Username"
                     For="() => RegUser.Username"/>
                 <MudTextField
@@ -30,7 +27,7 @@
                 <MudTextField
                     T="string"
                     InputMode="InputMode.text" InputType="_passwordInputType" Immediate="true"
-                    Label="Password" HelperText="Choose a strong password | Min 6 chars"
+                    Label="Password" HelperText="Min. 8 chars | Allowed chars: any"
                     Adornment="Adornment.End"
                     AdornmentIcon="@_passwordInputIcon" OnAdornmentClick="ShowPwd"
                     @bind-Value="RegUser.LoginPassword"

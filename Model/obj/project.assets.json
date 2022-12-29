@@ -1379,11 +1379,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\FindThings\\Model\\Model.csproj",
+      "projectUniqueName": "D:\\repos\\blazor-template\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "D:\\repos\\FindThings\\Model\\Model.csproj",
+      "projectPath": "D:\\repos\\blazor-template\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\trueberryless\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\FindThings\\Model\\obj\\",
+      "outputPath": "D:\\repos\\blazor-template\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\trueberryless\\AppData\\Roaming\\NuGet\\NuGet.Config",

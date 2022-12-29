@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KywR8QEeOiyV7fZkjsRt1un9/m9mCBGKPNgquK+LKVeNsTJsDwQc1fh49A0QBNA/ptRVCL1JP99yLdvsKzUSgw==",
+  "dgSpecHash": "UnwbY3I5fVZoezffcOIwW7O+EnYDLYisMZ32jrD0BgJVTwZl+mWBFuDDo6mA28WjwES72usDrBzxENLH7zh6Nw==",
   "success": true,
-  "projectFilePath": "D:\\repos\\FindThings\\Model\\Model.csproj",
+  "projectFilePath": "D:\\repos\\blazor-template\\Model\\Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trueberryless\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\trueberryless\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

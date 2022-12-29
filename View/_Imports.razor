@@ -24,6 +24,7 @@
 @using View.Shared.Auth
 @using View.Shared.Layout
 @using View.Shared.Layout.Customization
+@using View.Pages.Authentication
 
 
 @using Domain.Repositories.Interfaces
@@ -34,3 +35,11 @@
 
 @using MudBlazor
 @using MudBlazor.Utilities
+
+
+@inject UserService UserService
+@inject IUserRepository UserRepository
+@inject IThemeHandler ThemeHandler
+@inject ProtectedLocalStorage LocalStorage
+@implements IDisposable
+@inherits CancellationComponent

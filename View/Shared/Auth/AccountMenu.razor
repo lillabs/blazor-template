@@ -1,6 +1,4 @@
-﻿@inject UserService UserService
-@inject ILogger<AccountMenu> Logger
-@inherits CancellationComponent
+﻿@inject ILogger<AccountMenu> Logger
 
 <MudMenu AnchorOrigin="Origin.BottomRight" TransformOrigin="Origin.TopRight">
     <ActivatorContent>
@@ -15,8 +13,10 @@
             </MudText>
             <MudDivider Class="my-2"/>
             <MudNavLink Href="auth/settings" Match="NavLinkMatch.All">
-                <MudIcon Icon="@Icons.Filled.Settings"/>
-                <MudText Inline="true" Align="Align.Center">Settings</MudText>
+                <div class="d-flex align-self-center">
+                    <MudIcon Icon="@Icons.Filled.Settings"/>
+                    <MudText Inline="true" Class="ml-3">Settings</MudText>
+                </div>
             </MudNavLink>
 
             <div class="mt-6 mx-4">

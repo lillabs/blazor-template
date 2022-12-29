@@ -1,4 +1,4 @@
-﻿<MudPaper class="ml-5 p-4 position-relative rounded-r-xl" Outlined="true" Elevation="5" Square="true">
+﻿<MudPaper class="ml-5 pa-4 position-relative rounded-r-xl" Style="width: 100%" Outlined="true" Elevation="5" Square="true">
 
     @if (ErrorMessage is not null) {
         <MudAlert Severity="Severity.Error" ShowCloseIcon="true" CloseIconClicked="() => ErrorMessage = null">
@@ -9,10 +9,11 @@
         T="string"
         InputMode="InputMode.text" InputType="InputType.Text" Immediate="true"
         Counter="32" MaxLength="32" OnlyValidateIfDirty="true"
-        Label="Username" HelperText="Min. 4, Max. 50 characters | Allowed chars: A-Z 0-9 . _ - "
+        Label="Username" HelperText="Min. 4, Max. 32 characters | Allowed chars: a-z A-Z 0-9 . _ - "
         @bind-Value="User.Username"
         For="() => User.Username"/>
     <MudTextField
+        Class="mt-8"
         T="string"
         InputMode="InputMode.text" InputType="InputType.Text" Immediate="true"
         Counter="50" MaxLength="50"
@@ -21,7 +22,7 @@
         For="() => User.Email"/>
 
 
-    <MudButton Disabled="IsLoading" Variant="Variant.Filled" Color="Color.Primary" OnClick="SaveClick">Save</MudButton>
+    <MudButton Class="mt-6" Disabled="IsLoading" Variant="Variant.Filled" Color="Color.Primary" OnClick="SaveClick">Save</MudButton>
 
     <MudOverlay Visible="IsLoading" DarkBackground="true" AutoClose="false" Absolute="true">
         <MudProgressCircular Color="Color.Primary" Indeterminate="true" Size="Size.Large" StrokeWidth="5"/>

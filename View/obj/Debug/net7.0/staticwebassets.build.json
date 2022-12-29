@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PUL5aq0F5h5js6QyRpcUFrcCz1SOdRgIQ3V34kaBXiw=",
+  "Hash": "xYhUg9JW35+ry2pWatC0bcd0ZaBPO4RafVZ5mXpaR3U=",
   "Source": "View",
   "BasePath": "_content/View",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "View\\wwwroot",
       "Source": "View",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "Pattern": "**"
     }
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "C:\\Users\\trueberryless\\.nuget\\packages\\mudblazor\\6.1.5\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\custom.css",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\custom.css",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/custom.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\css\\site.css",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\css\\site.css",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\repos\\FindThings\\View\\wwwroot\\favicon.ico",
+      "Identity": "D:\\repos\\blazor-template\\View\\wwwroot\\favicon.ico",
       "SourceId": "View",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\FindThings\\View\\wwwroot\\",
+      "ContentRoot": "D:\\repos\\blazor-template\\View\\wwwroot\\",
       "BasePath": "_content/View",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

@@ -9,7 +9,7 @@ public class ModelDbContext : DbContext {
     public DbSet<RoleClaim> RoleClaims { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder builder) {
-// UNIQUE
+        // UNIQUE
 
         builder.Entity<User>()
             .HasIndex(u => u.Email)
@@ -19,10 +19,11 @@ public class ModelDbContext : DbContext {
             .HasIndex(r => r.Identifier)
             .IsUnique();
 
-// HAS KEY
+        // HAS KEY
 
         builder.Entity<RoleClaim>()
             .HasKey(rc => new { rc.UserId, rc.RoleId });
+        
         // RELATIONSHIPS
         // 1:1
         // 1:N
@@ -37,6 +38,7 @@ public class ModelDbContext : DbContext {
             .HasOne(rc => rc.User)
             .WithMany(u => u.RoleClaims)
             .HasForeignKey(rc => rc.UserId);
+        
         // OTHER
         // SEEDING
         builder.Entity<Role>()

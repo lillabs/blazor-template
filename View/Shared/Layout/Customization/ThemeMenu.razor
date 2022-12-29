@@ -1,12 +1,10 @@
-﻿@inject IThemeHandler ThemeHandler
-@inject ProtectedLocalStorage Local
-@implements IDisposable
+﻿
 
 <MudDrawer Anchor="Anchor.Right"
            Open="ThemeHandler.ThemeMenuShown"
            Elevation="1" OpenChanged="HandleDrawerOpenChanged"
            Variant="@DrawerVariant.Temporary"
-           Width="440px" Style="z-index: 5000">
+           Width="min(450px, 100%)" Style="z-index: 5000">
     <MudDrawerHeader Class="align-center">
         <MudText Typo="Typo.body1">
             <b>Theme</b>
@@ -54,7 +52,7 @@
                 <MudRadio Option="@(ESideMenuState.Maximized)" Color="Color.Primary">Maximize</MudRadio>
             </MudRadioGroup>
         </MudForm>
-        <MudExpansionPanels>
+        <MudExpansionPanels Style="margin-top: 2rem;">
             <MudExpansionPanel HideIcon="true">
                 <TitleContent>
                     <div class="d-flex justify-content-between">
@@ -67,7 +65,7 @@
                 </ChildContent>
             </MudExpansionPanel>
         </MudExpansionPanels>
-        <MudExpansionPanels>
+        <MudExpansionPanels Style="margin-block: 1rem;">
             <MudExpansionPanel HideIcon="true">
                 <TitleContent>
                     <div class="d-flex justify-content-between">
@@ -103,7 +101,7 @@
 
     private async void HandleDrawerOpenChanged(bool value) {
         ThemeHandler.UpdateThemeMenu(value);
-        await Local.SetAsync("Theme", new Theme {
+        await LocalStorage.SetAsync("Theme", new Theme {
             DarkMode = ThemeHandler.DarkMode,
             Primary = ThemeHandler.Theme.Palette.Primary.ToString(),
             Secondary = ThemeHandler.Theme.Palette.Secondary.ToString(),

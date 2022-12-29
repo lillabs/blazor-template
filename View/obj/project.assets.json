@@ -1415,11 +1415,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\FindThings\\View\\View.csproj",
+      "projectUniqueName": "D:\\repos\\blazor-template\\View\\View.csproj",
       "projectName": "View",
-      "projectPath": "D:\\repos\\FindThings\\View\\View.csproj",
+      "projectPath": "D:\\repos\\blazor-template\\View\\View.csproj",
       "packagesPath": "C:\\Users\\trueberryless\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\FindThings\\View\\obj\\",
+      "outputPath": "D:\\repos\\blazor-template\\View\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\trueberryless\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1436,11 +1436,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\repos\\FindThings\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\repos\\FindThings\\Domain\\Domain.csproj"
+            "D:\\repos\\blazor-template\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\repos\\blazor-template\\Domain\\Domain.csproj"
             },
-            "D:\\repos\\FindThings\\Model\\Model.csproj": {
-              "projectPath": "D:\\repos\\FindThings\\Model\\Model.csproj"
+            "D:\\repos\\blazor-template\\Model\\Model.csproj": {
+              "projectPath": "D:\\repos\\blazor-template\\Model\\Model.csproj"
             }
           }
         }

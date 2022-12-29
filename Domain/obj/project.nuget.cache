@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lomzc2kBQ6aUpWMCEYZDXSaiRb80ga7vf+ug2mPYePJAZPJvs0tRHpIc8fkZGIa1kJjjTUAvzj97bEXrD7JInA==",
+  "dgSpecHash": "OuQn1ssr25unZJ0WeYZRYMbeaxvnG0wJ1sRRZrQD9OtDGOdFbB4GODppZdFZYY3eayW7rF0uBeqchzrllG2A+g==",
   "success": true,
-  "projectFilePath": "D:\\repos\\FindThings\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\repos\\blazor-template\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trueberryless\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\trueberryless\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.0\\microsoft.aspnetcore.authorization.7.0.0.nupkg.sha512",

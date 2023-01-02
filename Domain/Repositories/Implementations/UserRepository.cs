@@ -1,4 +1,7 @@
-﻿namespace Domain.Repositories.Implementations;
+﻿using Model.Entities.Authentication;
+using Model.Entities.Authentication.Models;
+
+namespace Domain.Repositories.Implementations;
 
 public class UserRepository : ARepository<User>, IUserRepository {
     public UserRepository(ModelDbContext context) : base(context) {

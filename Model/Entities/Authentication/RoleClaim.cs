@@ -1,4 +1,4 @@
-﻿namespace Model.Entities.Auth;
+﻿namespace Model.Entities.Authentication;
 
 [Table("USER_HAS_ROLES_JT")]
 public class RoleClaim {

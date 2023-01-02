@@ -1,4 +1,6 @@
 ﻿@page "/auth/register"
+@using Model.Entities.Authentication.Models
+@using Model.Entities.Authentication
 @inject ILogger<Login> Logger
 
 <MudCard Class="position-relative w-100">
@@ -27,7 +29,7 @@
                 <MudTextField
                     T="string"
                     InputMode="InputMode.text" InputType="_passwordInputType" Immediate="true"
-                    Label="Password" HelperText="Min. 8 chars | Allowed chars: any"
+                    Label="Password" HelperText="Min. 8, Max. 128 characters | Allowed chars: any"
                     Adornment="Adornment.End"
                     AdornmentIcon="@_passwordInputIcon" OnAdornmentClick="ShowPwd"
                     @bind-Value="RegUser.LoginPassword"

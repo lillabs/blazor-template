@@ -1,4 +1,4 @@
-﻿namespace Model.Entities.Auth;
+﻿namespace Model.Entities.Authentication;
 
 [Table("USERS")]
 public class User {

@@ -1,12 +1,14 @@
-﻿namespace Model.Configuration;
+﻿using Model.Entities.Authentication;
+
+namespace Model.Configuration;
 
 public class ModelDbContext : DbContext {
     public ModelDbContext(DbContextOptions<ModelDbContext> options) : base(options) {
     }
 
-    public DbSet<User> Users { get; set; } = null!;
-    public DbSet<Role> Roles { get; set; } = null!;
-    public DbSet<RoleClaim> RoleClaims { get; set; } = null!;
+    public DbSet<User> Users { get; set; }
+    public DbSet<Role> Roles { get; set; }
+    public DbSet<RoleClaim> RoleClaims { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder) {
         // UNIQUE

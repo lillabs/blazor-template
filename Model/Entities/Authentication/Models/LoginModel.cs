@@ -1,4 +1,4 @@
-﻿namespace Model.Entities.Auth.Models;
+﻿namespace Model.Entities.Authentication.Models;
 
 public class LoginModel {
     public LoginModel() {

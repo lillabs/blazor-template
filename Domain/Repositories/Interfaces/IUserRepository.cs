@@ -1,4 +1,7 @@
-﻿namespace Domain.Repositories.Interfaces;
+﻿using Model.Entities.Authentication;
+using Model.Entities.Authentication.Models;
+
+namespace Domain.Repositories.Interfaces;
 
 public interface IUserRepository : IRepository<User> {
     Task<User?> FindByEmailAsync(string email, CancellationToken ct = default);

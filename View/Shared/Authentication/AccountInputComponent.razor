@@ -1,4 +1,5 @@
-﻿<MudPaper class="ml-5 pa-4 position-relative rounded-r-xl" Style="width: 100%" Outlined="true" Elevation="5" Square="true">
+﻿@using Model.Entities.Authentication
+<MudPaper class="ml-5 pa-4 position-relative rounded-r-xl" Style="width: 100%" Outlined="true" Elevation="5" Square="true">
 
     @if (ErrorMessage is not null) {
         <MudAlert Severity="Severity.Error" ShowCloseIcon="true" CloseIconClicked="() => ErrorMessage = null">
@@ -20,6 +21,16 @@
         Label="Email" OnlyValidateIfDirty="true"
         @bind-Value="User.Email"
         For="() => User.Email"/>
+    <MudTextField
+        Class="mt-8"
+        T="string"
+        InputMode="InputMode.text" InputType="InputType.Text" Immediate="true"
+        Counter="128" MaxLength="128"
+        Label="Password" 
+        HelperText="Min. 8, Max. 128 characters | Allowed chars: any"
+        OnlyValidateIfDirty="true"
+        @bind-Value="User.LoginPassword"
+        For="() => User.LoginPassword"/>
 
 
     <MudButton Class="mt-6" Disabled="IsLoading" Variant="Variant.Filled" Color="Color.Primary" OnClick="SaveClick">Save</MudButton>

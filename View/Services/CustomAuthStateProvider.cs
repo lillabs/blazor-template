@@ -1,4 +1,6 @@
-﻿namespace View.Services;
+﻿using Model.Entities.Authentication;
+
+namespace View.Services;
 
 public class CustomAuthStateProvider : AuthenticationStateProvider {
     private readonly TimeSpan _cacheDuration = TimeSpan.FromMinutes(5);

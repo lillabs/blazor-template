@@ -69,26 +69,13 @@ public class UserRepository : ARepository<User>, IUserRepository {
         var parts = email.Split("@");
 
         var hiddenemail = "";
-
-        hiddenemail += parts[0][..1];
         
-        for (int i = 0; i < parts[0][..^1].Length - 1; i++)
+        for (int i = 0; i < parts[0].Length; i++)
         {
             hiddenemail += "*";
         }
 
-        hiddenemail += parts[0][^1..];
-
-        hiddenemail += "@";
-        
-        hiddenemail += parts[1].Substring(0, 1);
-        
-        for (int i = 0; i < parts[1][..^1].Length - 1; i++)
-        {
-            hiddenemail += "*";
-        }
-
-        hiddenemail += parts[1].Substring(parts[1].Length - 1);
+        hiddenemail += "@" + parts[1];
 
         return hiddenemail;
     }

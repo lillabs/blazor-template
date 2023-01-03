@@ -1,4 +1,4 @@
-﻿@page "/auth/login"
+﻿@page "/authentication/login"
 @inject ILogger<Login> Logger
 
 @using Model.Entities.Authentication.Models
@@ -41,7 +41,7 @@
     <MudCardActions>
         <MudButton Disabled="_isLoggingIn" ButtonType="ButtonType.Button" Variant="Variant.Filled" Color="Color.Primary" OnClick="async () => await HandleLoginAsync()">Login</MudButton>
         <MudSpacer/>
-        <a href="auth/register">
+        <a href="authentication/register">
             <MudText Typo="Typo.subtitle1">
                 Don't have an account?
             </MudText>

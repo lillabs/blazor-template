@@ -3,7 +3,7 @@
 @using Model.Entities.Authentication
 @inject ILogger<Login> Logger
 
-<MudCard Class="position-relative w-100">
+<MudCard Class="position-relative w-100" Style="min-width: 35rem">
     <MudCardHeader>
         <MudText Typo="Typo.h5">Register</MudText>
     </MudCardHeader>
@@ -16,7 +16,7 @@
                     T="string"
                     InputMode="InputMode.text" InputType="InputType.Text" Immediate="true"
                     Counter="32" MaxLength="32"
-                    Label="Username" HelperText="Min. 4, Max. 32 characters | Allowed chars: a-z A-Z 0-9 . _ - "
+                    Label="Username"
                     @bind-Value="RegUser.Username"
                     For="() => RegUser.Username"/>
                 <MudTextField
@@ -29,7 +29,7 @@
                 <MudTextField
                     T="string"
                     InputMode="InputMode.text" InputType="_passwordInputType" Immediate="true"
-                    Label="Password" HelperText="Min. 8, Max. 128 characters | Allowed chars: any"
+                    Label="Password"
                     Adornment="Adornment.End"
                     AdornmentIcon="@_passwordInputIcon" OnAdornmentClick="ShowPwd"
                     @bind-Value="RegUser.LoginPassword"
@@ -40,7 +40,7 @@
             <MudProgressCircular Color="Color.Primary" Indeterminate="true" Size="Size.Large" StrokeWidth="5"/>
         </MudOverlay>
     </MudCardContent>
-    <MudCardActions>
+    <MudCardActions Style="margin-inline: .4rem; padding-bottom: 1rem;">
         <MudButton ButtonType="ButtonType.Button" Variant="Variant.Filled" Color="Color.Primary" OnClick="async () => await HandleRegisterAsync()">
             Register
         </MudButton>
@@ -62,7 +62,7 @@
     string? _success;
 
     bool _isShow;
-    string _passwordInputIcon = Icons.Material.Filled.VisibilityOff;
+    string _passwordInputIcon = Icons.Material.Filled.Visibility;
     InputType _passwordInputType = InputType.Password;
 
     User RegUser { get; } = new();
@@ -70,12 +70,12 @@
     void ShowPwd() {
         if (_isShow) {
             _isShow = false;
-            _passwordInputIcon = Icons.Material.Filled.VisibilityOff;
+            _passwordInputIcon = Icons.Material.Filled.Visibility;
             _passwordInputType = InputType.Password;
         }
         else {
             _isShow = true;
-            _passwordInputIcon = Icons.Material.Filled.Visibility;
+            _passwordInputIcon = Icons.Material.Filled.VisibilityOff;
             _passwordInputType = InputType.Text;
         }
     }

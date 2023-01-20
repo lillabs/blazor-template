@@ -5,7 +5,7 @@
 @inherits CancellationComponent
 
 
-<MudCard Class="position-relative w-100">
+<MudCard Class="position-relative w-100" Style="min-width: 35rem">
     <MudCardHeader>
         <MudText Typo="Typo.h5">Login</MudText>
         <AuthorizeView>
@@ -23,6 +23,7 @@
                 <MudTextField
                     T="string" Immediate="true" InputType="InputType.Text" InputMode="InputMode.text"
                     Label="Email"
+                    Counter="50" MaxLength="50"
                     @bind-Value="Model.Email"
                     For="() => Model.Email"/>
                 <MudTextField
@@ -38,7 +39,7 @@
             <MudProgressCircular Color="Color.Primary" Indeterminate="true" Size="Size.Large"/>
         </MudOverlay>
     </MudCardContent>
-    <MudCardActions>
+    <MudCardActions Style="margin-inline: .4rem; padding-bottom: 1rem;">
         <MudButton Disabled="_isLoggingIn" ButtonType="ButtonType.Button" Variant="Variant.Filled" Color="Color.Primary" OnClick="async () => await HandleLoginAsync()">Login</MudButton>
         <MudSpacer/>
         <a href="authentication/register">
@@ -58,7 +59,7 @@
     string? _success;
 
     bool _isShow;
-    string _passwordInputIcon = Icons.Material.Filled.VisibilityOff;
+    string _passwordInputIcon = Icons.Material.Filled.Visibility;
     InputType _passwordInputType = InputType.Password;
 
 
@@ -67,12 +68,12 @@
     void ShowPwd() {
         if (_isShow) {
             _isShow = false;
-            _passwordInputIcon = Icons.Material.Filled.VisibilityOff;
+            _passwordInputIcon = Icons.Material.Filled.Visibility;
             _passwordInputType = InputType.Password;
         }
         else {
             _isShow = true;
-            _passwordInputIcon = Icons.Material.Filled.Visibility;
+            _passwordInputIcon = Icons.Material.Filled.VisibilityOff;
             _passwordInputType = InputType.Text;
         }
     }
